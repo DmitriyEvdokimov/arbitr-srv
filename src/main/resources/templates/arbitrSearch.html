@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html  xmlns:th="http://www/thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>arbitrSearch</title>
+</head>
+<body>
+
+<pre id="myText" ></pre>
+<h5 th:text="${result}" />
+<script>
+    var data = ${result};
+
+    document.getElementById("myText").innerHTML = JSON.stringify(data, null, 4);
+
+</script>
+</body>
+</html>
