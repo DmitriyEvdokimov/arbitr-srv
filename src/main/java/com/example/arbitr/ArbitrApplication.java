@@ -9,8 +9,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 public class ArbitrApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ArbitrApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ArbitrApplication.class, args);
+    }
 
 }

@@ -13,21 +13,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class inputTConroller {
 
     @GetMapping("")
-    public String toinputT (){
+    public String toinputT() {
 
-return ("inputT");
+        return ("inputT");
     }
 
     @GetMapping("/inputT")
-    public String inputT(){
+    public String inputT() {
         return ("templates/inputT");
     }
-
-//    @PostMapping("/arbitrSearch")
-//    public String createInputT(@RequestParam String text,@RequestParam String court){
-//        System.out.printf(text,court);
-//        return("redirect:/index") ;
-//    }
 
 
 }

@@ -23,10 +23,10 @@ public class RasArbitrController {
         String response = feignClient.getDemo("l2SYnJAw5ObhSnZo", inn, ogrn);
         model.addAttribute("result", response);
 
-        return("arbitrSearch");
+        return ("arbitrSearch");
     }
 
-    }
+}
 
 
 
